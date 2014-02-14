@@ -3,3 +3,4 @@
 
 ;; ruby mode files
 (add-to-list 'auto-mode-alist '("Vagrantfile" . ruby-mode))
+(add-to-list 'auto-mode-alist '("Gemfile" . ruby-mode))
