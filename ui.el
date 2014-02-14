@@ -4,7 +4,7 @@
 ;; kill all the pretty decorations
 (menu-bar-mode -1)
 (tool-bar-mode -1)
-(scroll-bar-mode -1)
+(if (boundp 'scroll-bar-mode) (scroll-bar-mode -1))
 
 ;; set the default window size
 (add-to-list 'default-frame-alist (cons 'width 150))
