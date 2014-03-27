@@ -10,7 +10,7 @@
 (if (not (file-exists-p "~/.emacs.d/elpa/")) (package-refresh-contents))
 
 ;; the packages I expect to have around
-(setq my-packages `(web-mode clojure-mode ruby-mode haskell-mode scala-mode markdown-mode zenburn-theme))
+(setq my-packages '(web-mode clojure-mode ruby-mode haskell-mode scala-mode markdown-mode zenburn-theme cider))
 
 ;; make sure those packages are installed
 (dolist (p my-packages)
