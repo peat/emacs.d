@@ -12,10 +12,12 @@
 
 ;; font: Inconsolata, 13pt
 (set-face-attribute 'default nil :family "Inconsolata")
-(set-face-attribute 'default nil :height 150)
+(set-face-attribute 'default nil :height 160)
 
 ;; adjust mouse scrolling behavior to be sane
 (setq mouse-wheel-scroll-amount '(1))
 (setq mouse-wheel-progressive-speed nil)
 
-
+;; powerline
+(add-to-list 'load-path "~/.emacs.d/vendor")
+(require 'powerline)
