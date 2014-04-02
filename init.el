@@ -15,13 +15,12 @@
 (global-auto-revert-mode t)
 
 ;; friendly backup file config
-(setq saves-dir "~/.saves/")
-(if (not (file-exists-p saves-dir)) (make-directory saves-dir))
+(if (not (file-exists-p "~/.saves/")) (make-directory "~/.saves/"))
 
 (setq
  inhibit-startup-message t ; don't need that
  backup-by-copying t ; don't clobber symlinks
- backup-directory-alist '((".*" . ,saves-dir)) ; don't litter my fs
+ backup-directory-alist '((".*" . "~/.saves/")) ; don't litter my fs
  delete-old-versions t
  kept-new-versions 6
  kept-old-versions 2
