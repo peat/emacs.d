@@ -21,3 +21,6 @@
 ;; powerline
 (add-to-list 'load-path "~/.emacs.d/vendor")
 (require 'powerline)
+
+;; open default org file
+(find-file "~/scratch.org")
