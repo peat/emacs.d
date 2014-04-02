@@ -8,11 +8,11 @@
 
 ;; set the default window size
 (add-to-list 'default-frame-alist (cons 'width 150))
-(add-to-list 'default-frame-alist (cons 'height 50))
+(add-to-list 'default-frame-alist (cons 'height 40))
 
 ;; font: Inconsolata, 13pt
 (set-face-attribute 'default nil :family "Inconsolata")
-(set-face-attribute 'default nil :height 160)
+(set-face-attribute 'default nil :height 140)
 
 ;; adjust mouse scrolling behavior to be sane
 (setq mouse-wheel-scroll-amount '(1))
