@@ -1,7 +1,5 @@
 (setq default-directory (concat (getenv "HOME") "/"))
 
-(setq inhibit-startup-message t)
-
 ;; run package management
 (load "~/.emacs.d/packages.el")
 
