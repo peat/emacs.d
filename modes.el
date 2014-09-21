@@ -16,3 +16,6 @@
 
 ;; org-mode
 (add-hook 'org-mode-hook (lambda () (flyspell-mode t) (org-indent-mode t) (visual-line-mode t)))
+
+;; markdown
+(add-hook 'markdown-mode-hook (lambda () (flyspell-mode t)))
