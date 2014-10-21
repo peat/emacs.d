@@ -12,7 +12,7 @@
 
 ;; font: Inconsolata, 13pt
 (set-face-attribute 'default nil :family "Inconsolata")
-(set-face-attribute 'default nil :height 140)
+(set-face-attribute 'default nil :height 160)
 
 ;; adjust mouse scrolling behavior to be sane
 (setq mouse-wheel-scroll-amount '(1))
