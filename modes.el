@@ -19,3 +19,6 @@
 
 ;; markdown
 (add-hook 'markdown-mode-hook (lambda () (flyspell-mode t)))
+
+;; ispell hack
+(setq ispell-program-name "/usr/local/bin/ispell")
