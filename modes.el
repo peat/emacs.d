@@ -1,6 +1,5 @@
 ;; global modes
 (ido-mode t) ; friendly finding
-(iswitchb-mode t) ; friendly buffers
 (auto-save-mode t) ; auto save files
 
 ;; web
