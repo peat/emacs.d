@@ -13,6 +13,9 @@
 (add-to-list 'auto-mode-alist '("\\.scala\\'" . scala-mode))
 (add-to-list 'auto-mode-alist '("\\.sbt\\'" . scala-mode))
 
+;; rust
+(add-to-list 'auto-mode-alist '("\\.rs\\'" . rust-mode))
+
 ;; org-mode
 (add-hook 'org-mode-hook (lambda () (flyspell-mode t) (org-indent-mode t) (visual-line-mode t)))
 
